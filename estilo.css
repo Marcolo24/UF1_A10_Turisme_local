@@ -1,0 +1,80 @@
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 80px;
+}
+
+.titulo2 {
+    font-size: 30px;
+}
+
+.titulo3 {
+    font-size: 20px;
+}
+
+.tasa {
+    width: 100%;
+}
+
+iframe {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#fondo {
+    height: 60vh;
+    width: 100%;
+    background-image: url('mexico.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    object-fit: cover;
+}
+
+#noticias {
+    float: left;
+    width: calc(20% - 20px);
+    padding: 10px;
+}
+
+#contenido {
+    float: left;
+    width: calc(60% - 20px);
+    padding: 10px;
+}
+
+#indice {
+    float: left;
+    width: calc(20% - 20px);
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+#lista {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    #contenido {
+        width: 95%;
+    }
+    #noticias {
+        width: 95%;
+    }
+    #indice {
+        width: 95%;
+    }
+}
